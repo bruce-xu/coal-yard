@@ -1,0 +1,8 @@
+# render.yaml
+services:
+  - type: static
+    name: coal-yard
+    env: static
+    buildCommand: 
+    staticPublishPath: dist
+    branch: render
